@@ -1,0 +1,1147 @@
+mixed-port: 10000
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:10100
+
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  default-nameserver:
+    - 1.0.0.1
+  nameserver:
+    - https://doh-de.blahdns.com/dns-query
+  fallback:
+    - https://doh-de.blahdns.com/dns-query
+  fallback-filter:
+    geoip: true
+
+proxies:
+  - {
+      name: ALB🇦🇱・Tirana,
+      server: 31.171.153.117,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: ARG🇦🇷・Buenos Aires,
+      server: 91.206.168.50,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: AUS🇦🇺・Brisbane,
+      server: 144.48.39.69,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: AUS🇦🇺・Adelaide,
+      server: 45.248.79.37,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: AUS🇦🇺・Sydney,
+      server: 180.149.228.171,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: AUS🇦🇺・Melbourne,
+      server: 144.48.38.21,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: AUS🇦🇺・Perth,
+      server: 124.150.139.179,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: AUT🇦🇹・Vienna,
+      server: 146.70.28.93,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: AZE🇦🇿・Baku,
+      server: 94.20.154.67,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: BEL🇧🇪・Brussels,
+      server: 91.90.123.213,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: BIH🇧🇦・Sarajevo,
+      server: 185.99.3.102,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: BRA🇧🇷・Sao Paulo,
+      server: 138.199.4.93,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: BUL🇧🇬・Sofia,
+      server: 37.120.152.195,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: CAN🇨🇦・Vancouver,
+      server: 66.115.147.77,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: CAN🇨🇦・Toronto,
+      server: 37.19.211.87,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: CAN🇨🇦・Montreal,
+      server: 139.28.218.91,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: CHL🇨🇱・Santiago,
+      server: 31.169.121.3,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: COL🇨🇴・Bogota,
+      server: 45.129.32.32,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: CRI🇨🇷・San Jose,
+      server: 176.227.241.26,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: HRV🇭🇷・Zagreb,
+      server: 176.222.34.132,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: CYP🇨🇾・Nicosia,
+      server: 195.47.194.61,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: CZE🇨🇿・Prague,
+      server: 185.180.14.147,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: DEN🇩🇰・Copenhagen,
+      server: 193.29.107.125,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: EST🇪🇪・Tallinn,
+      server: 185.174.159.138,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: FIN🇫🇮・Helsinki,
+      server: 196.244.191.163,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: FRA🇫🇷・Paris,
+      server: 143.244.57.112,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: FRA🇫🇷・Bordeaux,
+      server: 185.108.106.162,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: FRA🇫🇷・Marseille,
+      server: 185.166.84.21,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: GEO🇬🇪・Tbilisi,
+      server: 91.239.207.226,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: GER🇩🇪・Berlin,
+      server: 193.29.106.221,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: GER🇩🇪・Frankfurt am Main,
+      server: 138.199.19.167,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: GRC🇬🇷・Athens,
+      server: 194.150.167.54,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: HKG🇭🇰・HongKong,
+      server: 212.102.42.196,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: HUN🇭🇺・Budapest,
+      server: 37.120.144.195,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: ISL🇮🇸・Reykjavik,
+      server: 45.133.193.195,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: IND🇮🇳・Mumbai,
+      server: 103.156.51.14,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: IND🇮🇳・Chennai,
+      server: 103.108.117.118,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: IND🇮🇳・Indore,
+      server: 103.73.189.61,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: IDN🇮🇩・Jakarta,
+      server: 103.148.242.163,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: IRL🇮🇪・Dublin,
+      server: 37.120.235.213,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: ISR🇮🇱・Tel Aviv,
+      server: 84.110.41.85,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: ITA🇮🇹・Milan,
+      server: 84.17.58.200,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: ITA🇮🇹・Rome,
+      server: 37.120.207.3,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: JPN🇯🇵・Tokyo,
+      server: 89.187.160.132,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: KAZ🇰🇿・Oral,
+      server: 5.189.202.11,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: LVA🇱🇻・Riga,
+      server: 188.92.78.210,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: LUX🇱🇺・Luxembourg,
+      server: 185.153.151.191,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: MYS🇲🇾・Kuala Lumpur,
+      server: 42.0.30.162,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: MEX🇲🇽・Mexico City,
+      server: 194.41.112.24,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: MDA🇲🇩・Chisinau,
+      server: 178.175.128.237,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: NLD🇳🇱・Amsterdam,
+      server: 89.46.223.78,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: NZL🇳🇿・Auckland,
+      server: 180.149.231.45,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: NGA🇳🇬・Lagos,
+      server: 102.165.23.42,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: MKD🇲🇰・Skopje,
+      server: 185.225.28.101,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: NOR🇳🇴・Oslo,
+      server: 95.174.66.35,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: PAN🇵🇦・Panama,
+      server: 185.244.139.7,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: PER🇵🇪・Lima,
+      server: 193.218.35.3,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: PHL🇵🇭・Manila,
+      server: 45.134.224.29,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: POL🇵🇱・Gdansk,
+      server: 5.133.8.117,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: POL🇵🇱・Warsaw,
+      server: 185.246.208.77,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: PRT🇵🇹・Lisbon,
+      server: 91.205.230.144,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: PRT🇵🇹・Porto,
+      server: 194.39.127.240,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: ROU🇷🇴・Bucharest,
+      server: 185.102.217.161,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: RUS🇷🇺・Moscow,
+      server: 92.38.138.111,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: SRB🇷🇸・Belgrade,
+      server: 152.89.160.215,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: SGP🇸🇬・Singapore,
+      server: 156.146.56.137,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: SVK🇸🇰・Bratislava,
+      server: 185.76.8.212,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: SVN🇸🇮・Ljubljana,
+      server: 195.158.249.59,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: ZAF🇿🇦・Johannesburg,
+      server: 154.127.49.232,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: KOR🇰🇷・Seoul,
+      server: 45.130.137.36,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: ESP🇪🇸・Barcelona,
+      server: 185.188.61.117,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: ESP🇪🇸・Madrid,
+      server: 89.37.95.21,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: ESP🇪🇸・Valencia,
+      server: 185.153.150.54,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: SWE🇸🇪・Stockholm,
+      server: 195.181.166.226,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: CHE🇨🇭・Zurich,
+      server: 84.17.53.86,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: TWN🇹🇼・Taichung City,
+      server: 2.58.242.53,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: THA🇹🇭・Bangkok,
+      server: 27.131.164.99,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: TUR🇹🇷・Istanbul,
+      server: 107.150.94.19,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: UKR🇺🇦・Kyiv,
+      server: 156.146.50.102,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: UAE🇦🇪・Dubai,
+      server: 45.9.249.243,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: GBR🇬🇧・Glasgow,
+      server: 185.108.105.113,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: GBR🇬🇧・London,
+      server: 217.146.83.73,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: GBR🇬🇧・Manchester,
+      server: 89.238.132.77,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・Miami,
+      server: 23.108.54.70,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・Ashburn,
+      server: 37.19.220.201,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・New York,
+      server: 37.19.199.214,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・Tampa,
+      server: 209.216.92.18,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・Buffalo,
+      server: 172.93.153.150,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・Boston,
+      server: 173.237.207.56,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・Latham,
+      server: 45.43.19.92,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・Orlando,
+      server: 198.147.22.83,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・Manassas,
+      server: 23.105.160.138,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・Atlanta,
+      server: 138.199.2.130,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・Detroit,
+      server: 104.244.208.37,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・Houston,
+      server: 199.10.64.229,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・St. Louis,
+      server: 148.72.171.178,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・Salt Lake City,
+      server: 104.200.131.165,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・Charlotte,
+      server: 192.158.224.110,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・Chicago,
+      server: 138.199.42.163,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・Phoenix,
+      server: 107.181.184.115,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・Kansas City,
+      server: 198.204.231.149,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・Dallas,
+      server: 212.102.40.73,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・Denver,
+      server: 212.102.44.76,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・Seattle,
+      server: 212.102.46.37,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・San Francisco,
+      server: 185.124.240.159,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・Las Vegas,
+      server: 79.110.53.205,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・Los Angeles,
+      server: 192.111.134.207,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: USA🇺🇸・Bend,
+      server: 154.16.168.184,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: VEN🇻🇪・Caracas,
+      server: 45.149.3.5,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+  - {
+      name: VNM🇻🇳・Ho Chi Minh City,
+      server: 202.143.110.36,
+      port: 43952,
+      type: ss,
+      cipher: aes-256-gcm,
+      password: CGdMbRLGBrYkWhWkHyp44Ykb,
+    }
+proxy-groups:
+  - name: 🛠 MENU
+    type: select
+    proxies:
+      - ✈️ AUTOMATIC
+      - 🚀 MANUAL
+  - name: 🚀 MANUAL
+    type: select
+    proxies:
+      - ALB🇦🇱・Tirana
+      - ARG🇦🇷・Buenos Aires
+      - AUS🇦🇺・Brisbane
+      - AUS🇦🇺・Adelaide
+      - AUS🇦🇺・Sydney
+      - AUS🇦🇺・Melbourne
+      - AUS🇦🇺・Perth
+      - AUT🇦🇹・Vienna
+      - AZE🇦🇿・Baku
+      - BEL🇧🇪・Brussels
+      - BIH🇧🇦・Sarajevo
+      - BRA🇧🇷・Sao Paulo
+      - BUL🇧🇬・Sofia
+      - CAN🇨🇦・Vancouver
+      - CAN🇨🇦・Toronto
+      - CAN🇨🇦・Montreal
+      - CHL🇨🇱・Santiago
+      - COL🇨🇴・Bogota
+      - CRI🇨🇷・San Jose
+      - HRV🇭🇷・Zagreb
+      - CYP🇨🇾・Nicosia
+      - CZE🇨🇿・Prague
+      - DEN🇩🇰・Copenhagen
+      - EST🇪🇪・Tallinn
+      - FIN🇫🇮・Helsinki
+      - FRA🇫🇷・Paris
+      - FRA🇫🇷・Bordeaux
+      - FRA🇫🇷・Marseille
+      - GEO🇬🇪・Tbilisi
+      - GER🇩🇪・Berlin
+      - GER🇩🇪・Frankfurt am Main
+      - GRC🇬🇷・Athens
+      - HKG🇭🇰・HongKong
+      - HUN🇭🇺・Budapest
+      - ISL🇮🇸・Reykjavik
+      - IND🇮🇳・Mumbai
+      - IND🇮🇳・Chennai
+      - IND🇮🇳・Indore
+      - IDN🇮🇩・Jakarta
+      - IRL🇮🇪・Dublin
+      - ISR🇮🇱・Tel Aviv
+      - ITA🇮🇹・Milan
+      - ITA🇮🇹・Rome
+      - JPN🇯🇵・Tokyo
+      - KAZ🇰🇿・Oral
+      - LVA🇱🇻・Riga
+      - LUX🇱🇺・Luxembourg
+      - MYS🇲🇾・Kuala Lumpur
+      - MEX🇲🇽・Mexico City
+      - MDA🇲🇩・Chisinau
+      - NLD🇳🇱・Amsterdam
+      - NZL🇳🇿・Auckland
+      - NGA🇳🇬・Lagos
+      - MKD🇲🇰・Skopje
+      - NOR🇳🇴・Oslo
+      - PAN🇵🇦・Panama
+      - PER🇵🇪・Lima
+      - PHL🇵🇭・Manila
+      - POL🇵🇱・Gdansk
+      - POL🇵🇱・Warsaw
+      - PRT🇵🇹・Lisbon
+      - PRT🇵🇹・Porto
+      - ROU🇷🇴・Bucharest
+      - RUS🇷🇺・Moscow
+      - SRB🇷🇸・Belgrade
+      - SGP🇸🇬・Singapore
+      - SVK🇸🇰・Bratislava
+      - SVN🇸🇮・Ljubljana
+      - ZAF🇿🇦・Johannesburg
+      - KOR🇰🇷・Seoul
+      - ESP🇪🇸・Barcelona
+      - ESP🇪🇸・Madrid
+      - ESP🇪🇸・Valencia
+      - SWE🇸🇪・Stockholm
+      - CHE🇨🇭・Zurich
+      - TWN🇹🇼・Taichung City
+      - THA🇹🇭・Bangkok
+      - TUR🇹🇷・Istanbul
+      - UKR🇺🇦・Kyiv
+      - UAE🇦🇪・Dubai
+      - GBR🇬🇧・Glasgow
+      - GBR🇬🇧・London
+      - GBR🇬🇧・Manchester
+      - USA🇺🇸・Miami
+      - USA🇺🇸・Ashburn
+      - USA🇺🇸・New York
+      - USA🇺🇸・Tampa
+      - USA🇺🇸・Buffalo
+      - USA🇺🇸・Boston
+      - USA🇺🇸・Latham
+      - USA🇺🇸・Orlando
+      - USA🇺🇸・Manassas
+      - USA🇺🇸・Atlanta
+      - USA🇺🇸・Detroit
+      - USA🇺🇸・Houston
+      - USA🇺🇸・St. Louis
+      - USA🇺🇸・Salt Lake City
+      - USA🇺🇸・Charlotte
+      - USA🇺🇸・Chicago
+      - USA🇺🇸・Phoenix
+      - USA🇺🇸・Kansas City
+      - USA🇺🇸・Dallas
+      - USA🇺🇸・Denver
+      - USA🇺🇸・Seattle
+      - USA🇺🇸・San Francisco
+      - USA🇺🇸・Las Vegas
+      - USA🇺🇸・Los Angeles
+      - USA🇺🇸・Bend
+      - VEN🇻🇪・Caracas
+      - VNM🇻🇳・Ho Chi Minh City
+  - name: ✈️ AUTOMATIC
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - ALB🇦🇱・Tirana
+      - ARG🇦🇷・Buenos Aires
+      - AUS🇦🇺・Brisbane
+      - AUS🇦🇺・Adelaide
+      - AUS🇦🇺・Sydney
+      - AUS🇦🇺・Melbourne
+      - AUS🇦🇺・Perth
+      - AUT🇦🇹・Vienna
+      - AZE🇦🇿・Baku
+      - BEL🇧🇪・Brussels
+      - BIH🇧🇦・Sarajevo
+      - BRA🇧🇷・Sao Paulo
+      - BUL🇧🇬・Sofia
+      - CAN🇨🇦・Vancouver
+      - CAN🇨🇦・Toronto
+      - CAN🇨🇦・Montreal
+      - CHL🇨🇱・Santiago
+      - COL🇨🇴・Bogota
+      - CRI🇨🇷・San Jose
+      - HRV🇭🇷・Zagreb
+      - CYP🇨🇾・Nicosia
+      - CZE🇨🇿・Prague
+      - DEN🇩🇰・Copenhagen
+      - EST🇪🇪・Tallinn
+      - FIN🇫🇮・Helsinki
+      - FRA🇫🇷・Paris
+      - FRA🇫🇷・Bordeaux
+      - FRA🇫🇷・Marseille
+      - GEO🇬🇪・Tbilisi
+      - GER🇩🇪・Berlin
+      - GER🇩🇪・Frankfurt am Main
+      - GRC🇬🇷・Athens
+      - HKG🇭🇰・HongKong
+      - HUN🇭🇺・Budapest
+      - ISL🇮🇸・Reykjavik
+      - IND🇮🇳・Mumbai
+      - IND🇮🇳・Chennai
+      - IND🇮🇳・Indore
+      - IDN🇮🇩・Jakarta
+      - IRL🇮🇪・Dublin
+      - ISR🇮🇱・Tel Aviv
+      - ITA🇮🇹・Milan
+      - ITA🇮🇹・Rome
+      - JPN🇯🇵・Tokyo
+      - KAZ🇰🇿・Oral
+      - LVA🇱🇻・Riga
+      - LUX🇱🇺・Luxembourg
+      - MYS🇲🇾・Kuala Lumpur
+      - MEX🇲🇽・Mexico City
+      - MDA🇲🇩・Chisinau
+      - NLD🇳🇱・Amsterdam
+      - NZL🇳🇿・Auckland
+      - NGA🇳🇬・Lagos
+      - MKD🇲🇰・Skopje
+      - NOR🇳🇴・Oslo
+      - PAN🇵🇦・Panama
+      - PER🇵🇪・Lima
+      - PHL🇵🇭・Manila
+      - POL🇵🇱・Gdansk
+      - POL🇵🇱・Warsaw
+      - PRT🇵🇹・Lisbon
+      - PRT🇵🇹・Porto
+      - ROU🇷🇴・Bucharest
+      - RUS🇷🇺・Moscow
+      - SRB🇷🇸・Belgrade
+      - SGP🇸🇬・Singapore
+      - SVK🇸🇰・Bratislava
+      - SVN🇸🇮・Ljubljana
+      - ZAF🇿🇦・Johannesburg
+      - KOR🇰🇷・Seoul
+      - ESP🇪🇸・Barcelona
+      - ESP🇪🇸・Madrid
+      - ESP🇪🇸・Valencia
+      - SWE🇸🇪・Stockholm
+      - CHE🇨🇭・Zurich
+      - TWN🇹🇼・Taichung City
+      - THA🇹🇭・Bangkok
+      - TUR🇹🇷・Istanbul
+      - UKR🇺🇦・Kyiv
+      - UAE🇦🇪・Dubai
+      - GBR🇬🇧・Glasgow
+      - GBR🇬🇧・London
+      - GBR🇬🇧・Manchester
+      - USA🇺🇸・Miami
+      - USA🇺🇸・Ashburn
+      - USA🇺🇸・New York
+      - USA🇺🇸・Tampa
+      - USA🇺🇸・Buffalo
+      - USA🇺🇸・Boston
+      - USA🇺🇸・Latham
+      - USA🇺🇸・Orlando
+      - USA🇺🇸・Manassas
+      - USA🇺🇸・Atlanta
+      - USA🇺🇸・Detroit
+      - USA🇺🇸・Houston
+      - USA🇺🇸・St. Louis
+      - USA🇺🇸・Salt Lake City
+      - USA🇺🇸・Charlotte
+      - USA🇺🇸・Chicago
+      - USA🇺🇸・Phoenix
+      - USA🇺🇸・Kansas City
+      - USA🇺🇸・Dallas
+      - USA🇺🇸・Denver
+      - USA🇺🇸・Seattle
+      - USA🇺🇸・San Francisco
+      - USA🇺🇸・Las Vegas
+      - USA🇺🇸・Los Angeles
+      - USA🇺🇸・Bend
+      - VEN🇻🇪・Caracas
+      - VNM🇻🇳・Ho Chi Minh City
+rules:
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+  - IP-CIDR6,::1/128,DIRECT,no-resolve
+  - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+  - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+  - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+  - GEOIP,IR,DIRECT,
+  - MATCH,🛠 MENU
